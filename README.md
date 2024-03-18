@@ -1,2 +1,2 @@
-# qablueprint
+# QA Blueprint
 QA Blueprint
