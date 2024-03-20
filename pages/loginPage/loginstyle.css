@@ -1,3 +1,4 @@
+/* Styles for the login form */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap'); /* style.css */
 body, html {
     margin: 0;
@@ -141,3 +142,29 @@ body {
 #full-name::before { content: '\f007'; } /* User icon */
 #email::before { content: '\f0e0'; } /* Envelope icon */
 #password::before { content: '\f084'; } /* Lock icon */
+
+/* Forgot Password link */
+.forgot-password {
+    display: block;
+    margin-top: 1em;
+    color: #3498db; /* Link color to match button */
+    text-decoration: none;
+}
+
+/* Styles for 'Remember Me' checkbox */
+.remember-me {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5em;
+}
+
+/* Style adjustments for when the login form has a redirect to signup instead */
+.signup-redirect {
+    margin-top: 1em;
+}
+
+/* Make the button change when the mouse is over it */
+.signup-form button:hover {
+    background-color: #2979ff; /* Slightly different color on hover */
+    transition: background-color 0.3s; /* Smooth transition for color change */
+}
