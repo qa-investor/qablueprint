@@ -3,58 +3,48 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>QA Blueprint</title>
+  <title>TC Manager Login</title>
   <link rel="stylesheet" href="homestyle.css">
 </head>
 <body>
-<div class="split-screen">
-  <div class="left-pane">
-    <section class="intro">
-      <h1>Simplify Test Case Creation</h1>
-      <p>Manage automation testing along with manual testing. Unite BA, Dev, QA, and non-tech stakeholders in one flow to maximize the synergy of testing efforts.</p>
-      <h2>Designed for QA and Developers. Powered for automated and manual tests.</h2>
-      <ul>
-        <li>sync automated tests in one click</li>
-        <li>design tests with markdown or gherkin</li>
-        <li>execute any tests by non-tech person</li>
-        <li>use a single workspace by whole team</li>
-        <li>inspect failures, reporting and analytics</li>
-      </ul>
-    </section>
+<div class="container">
+  <div class="left-container">
+    <h1>Simplify Test Case Creation</h1>
+    <p>Manage automation testing along with manual testing in one workspace. Unite BA, Dev, QA, and non-tech stakeholders in one flow to maximize the synergy of testing efforts.</p>
+    <h2>Designed for QA and Developers. Powered for automated tests.</h2>
+    <ul>
+      <li>sync automated tests in one click</li>
+      <li>design tests with markdown or gherkin</li>
+      <li>execute any tests by non-tech person</li>
+      <li>use a single workspace by whole team</li>
+      <li>inspect failures, reporting and analytics</li>
+    </ul>
   </div>
-  <div class="right-pane">
-    <section class="sign-in-section">
-      <h2>Sign In</h2>
-      <p class="account-prompt">Do not have an account yet? <a href="#">Sign Up</a></p>
-      <button class="social-sign-in google">Sign in with Google</button>
-      <button class="social-sign-in github">Sign in with GitHub</button>
-      <div class="or-divider">
-        <hr class="divider-line">
-        <span>or continue with</span>
-        <hr class="divider-line">
+  <div class="right-container">
+    <div class="login-container">
+      <div class="signup-prompt">
+        <p>Do not have an account yet? <a href="#">Sign Up</a></p>
       </div>
-      <form>
+      <div class="social-logins">
+        <button class="google-login">Sign in with Google</button>
+        <button class="github-login">Sign in with GitHub</button>
+      </div>
+      <div class="divider">
+        <hr><span>Or continue with</span><hr>
+      </div>
+      <form class="login-form">
         <input type="email" placeholder="Email" required>
         <input type="password" placeholder="Password" required>
-        <div class="form-options">
-          <label for="remember-me">
-            <input type="checkbox" id="remember-me"> Remember me
-          </label>
-          <a href="#">Forgot your password?</a>
-        </div>
-        <button type="submit" class="sign-in-button">Sign In</button>
-      </form>
-      <footer>
-        <div class="container">
-          <p>Connect with us on social media</p>
-          <div class="social-links">
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <div class="form-footer">
+          <div class="remember-me">
+            <input type="checkbox" id="remember-me">
+            <label for="remember-me">Remember me</label>
           </div>
+          <a href="#" class="forgot-password">Forgot your password?</a>
         </div>
-      </footer>
-    </section>
+        <button type="submit" class="login-button">Sign In</button>
+      </form>
+    </div>
   </div>
 </div>
 </body>
