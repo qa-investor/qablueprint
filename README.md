@@ -1,4 +1,4 @@
-# QA Blueprintsss
+# QA Blueprintssss
 ## Overview
 QA Blueprint is a web application designed to help QA engineers, developers and product managers generate test cases for web applications quickly and efficiently. 
 By automating the test case generation process, QA Blueprint reduces the time spent on manual test creation and allows engineers to focus on other critical aspects of quality assurance.
